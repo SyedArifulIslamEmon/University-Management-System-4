@@ -124,5 +124,19 @@ namespace UniversityManagementSystem.Controllers
             }
             base.Dispose(disposing);
         }
+
+        public JsonResult IsNameExists(string name)
+        {
+            var semester = db.Semesters.FirstOrDefault(d => d.Name == name);
+
+            if (semester != null)
+            {
+                return Json(false, JsonRequestBehavior.AllowGet);
+            }
+            else
+            {
+                return Json(true, JsonRequestBehavior.AllowGet);
+            }
+        } 
     }
 }

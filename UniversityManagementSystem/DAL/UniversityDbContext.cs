@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-//using UniversityManagementSystem.Migrations;
+using UniversityManagementSystem.Migrations;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Linq;
@@ -16,8 +16,8 @@ namespace UniversityManagementSystem.DAL
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
-            //Database.SetInitializer(new MigrateDatabaseToLatestVersion<UniversityDbContext,Configuration>());
-            //base.OnModelCreating(modelBuilder);
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<UniversityDbContext, Configuration>());
+            base.OnModelCreating(modelBuilder);
         }
 
         public DbSet<Department> Departments { get; set; }

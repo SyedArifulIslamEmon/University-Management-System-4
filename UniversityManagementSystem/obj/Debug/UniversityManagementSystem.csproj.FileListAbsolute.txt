@@ -25,5 +25,11 @@ D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\bin\Sy
 D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.xml
 D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.Deployment.xml
 D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.Razor.xml
+D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.Migrations.InitialCreate.resources
+D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.Migrations.departmentvalidationadded.resources
+D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.Migrations.depsemcoursevalidationadded.resources
+D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.Migrations.semesterupdated.resources
+D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.Migrations.coursesemfixed.resources
+D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.csproj.GenerateResource.Cache
 D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.dll
 D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.pdb

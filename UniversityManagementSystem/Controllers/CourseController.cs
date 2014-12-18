@@ -133,5 +133,33 @@ namespace UniversityManagementSystem.Controllers
             }
             base.Dispose(disposing);
         }
+
+        public JsonResult IsCodeExists(string code)
+        {
+            var course = db.Courses.FirstOrDefault(d => d.Code == code);
+
+            if (course != null)
+            {
+                return Json(false, JsonRequestBehavior.AllowGet);
+            }
+            else
+            {
+                return Json(true, JsonRequestBehavior.AllowGet);
+            }
+        }
+
+        public JsonResult IsNameExists(string name)
+        {
+            var course = db.Courses.FirstOrDefault(d => d.Name == name);
+
+            if (course != null)
+            {
+                return Json(false, JsonRequestBehavior.AllowGet);
+            }
+            else
+            {
+                return Json(true, JsonRequestBehavior.AllowGet);
+            }
+        } 
     }
 }
