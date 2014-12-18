@@ -14,8 +14,10 @@ D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\bin\Sy
 D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.dll
 D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.Razor.dll
 D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\bin\WebGrease.dll
+D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\bin\Antlr3.Runtime.pdb
 D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\bin\EntityFramework.xml
 D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\bin\EntityFramework.SqlServer.xml
+D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\bin\Newtonsoft.Json.xml
 D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Helpers.xml
 D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Mvc.xml
 D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.Optimization.xml
@@ -23,8 +25,5 @@ D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\bin\Sy
 D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.xml
 D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.Deployment.xml
 D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\bin\System.Web.WebPages.Razor.xml
-D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\bin\Antlr3.Runtime.pdb
-D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\bin\Newtonsoft.Json.xml
-D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.csprojResolveAssemblyReference.cache
 D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.dll
 D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.pdb
