@@ -15,8 +15,8 @@ namespace UniversityManagementSystem.Models
         [Remote("IsCodeExists", "Course", ErrorMessage = "Course code already exists.")]
         public string Code { get; set; }
 
-        [Range(1, 6, ErrorMessage = "Course credit must be between 1 and 6")]
-        public int Credit { get; set; }
+        [Range(typeof(double), "0.5", "12.0", ErrorMessage = "Course credit must be between 0.5 and 12.0")]
+        public double Credit { get; set; }
 
         [Required(ErrorMessage = "Please enter a unique course name.")]
         [Remote("IsNameExists", "Course", ErrorMessage = "Course name already exists.")]

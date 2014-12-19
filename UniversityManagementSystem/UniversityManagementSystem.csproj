@@ -120,6 +120,7 @@
     <Compile Include="Controllers\DepartmentController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\SemesterController.cs" />
+    <Compile Include="Controllers\TeacherController.cs" />
     <Compile Include="DAL\UniversityDbContext.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -144,10 +145,16 @@
     <Compile Include="Migrations\201412182221531_course, sem. fixed.Designer.cs">
       <DependentUpon>201412182221531_course, sem. fixed.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201412191706499_Teacher added.cs" />
+    <Compile Include="Migrations\201412191706499_Teacher added.Designer.cs">
+      <DependentUpon>201412191706499_Teacher added.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\Department.cs" />
+    <Compile Include="Models\Designation.cs" />
     <Compile Include="Models\Semester.cs" />
+    <Compile Include="Models\Teacher.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -211,6 +218,11 @@
     <Content Include="Views\Course\Details.cshtml" />
     <Content Include="Views\Course\Edit.cshtml" />
     <Content Include="Views\Course\Index.cshtml" />
+    <Content Include="Views\Teacher\Create.cshtml" />
+    <Content Include="Views\Teacher\Delete.cshtml" />
+    <Content Include="Views\Teacher\Details.cshtml" />
+    <Content Include="Views\Teacher\Edit.cshtml" />
+    <Content Include="Views\Teacher\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -234,6 +246,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201412182221531_course, sem. fixed.resx">
       <DependentUpon>201412182221531_course, sem. fixed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201412191706499_Teacher added.resx">
+      <DependentUpon>201412191706499_Teacher added.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

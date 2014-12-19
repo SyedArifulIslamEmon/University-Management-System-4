@@ -25,5 +25,9 @@ namespace UniversityManagementSystem.DAL
         public DbSet<Semester> Semesters { get; set; }
 
         public DbSet<Course> Courses { get; set; }
+
+        public System.Data.Entity.DbSet<UniversityManagementSystem.Models.Teacher> Teachers { get; set; }
+
+        public System.Data.Entity.DbSet<UniversityManagementSystem.Models.Designation> Designations { get; set; }
     }
 }
