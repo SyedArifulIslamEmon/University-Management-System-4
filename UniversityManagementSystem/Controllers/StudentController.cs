@@ -55,7 +55,8 @@ namespace UniversityManagementSystem.Controllers
             {
 
                 student.RegistrationId = RegNo(student);
-                ViewBag.regId = student.Name + " Registration Id: " + student.RegistrationId;
+                //ViewBag.regId = student.Name + " Registration Id: " + student.RegistrationId;
+                TempData["Success"] = student.Name + " Registration Id: " + student.RegistrationId;
 
                 db.Students.Add(student);
                 db.SaveChanges();

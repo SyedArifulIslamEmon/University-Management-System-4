@@ -7,11 +7,15 @@
 <h2>Create</h2>
 
 
-@if (ViewBag.regId != null)
+@*@if (ViewBag.regId != null)
 {
     <div class="alert alert-success">Registration Complete Successfuly . Registration No: @(ViewBag.regId)</div>
-}
+}*@
 
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">Registration Complete Successfuly . Registration No: @(TempData["Success"])</div>
+}
 
 @using (Html.BeginForm()) 
 {
