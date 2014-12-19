@@ -30,7 +30,8 @@ D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\obj\De
 D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.Migrations.depsemcoursevalidationadded.resources
 D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.Migrations.semesterupdated.resources
 D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.Migrations.coursesemfixed.resources
+D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.Migrations.Teacheradded.resources
+D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.Migrations.Seedadded.resources
 D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.csproj.GenerateResource.Cache
 D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.dll
 D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.pdb
-D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.Migrations.Teacheradded.resources
