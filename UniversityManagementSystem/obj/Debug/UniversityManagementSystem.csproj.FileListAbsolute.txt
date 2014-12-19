@@ -35,3 +35,4 @@ D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\obj\De
 D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.csproj.GenerateResource.Cache
 D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.dll
 D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.pdb
+D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.Migrations.Studentadded.resources
