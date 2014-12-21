@@ -39,5 +39,13 @@ namespace UniversityManagementSystem.DAL
         public DbSet<Student> Students { get; set; }
 
         public DbSet<UniversityManagementSystem.Models.AssignCourse> AssignCourses { get; set; }
+
+        public DbSet<Room> Rooms { get; set; }
+
+        public DbSet<RoomAllocation> RoomAllocations { get; set; }
+
+        public DbSet<Day> Days { get; set; }
+
+        public System.Data.Entity.DbSet<UniversityManagementSystem.Models.EnrollCourse> EnrollCourses { get; set; }
     }
 }

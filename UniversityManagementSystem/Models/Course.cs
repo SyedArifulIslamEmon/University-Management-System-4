@@ -40,8 +40,8 @@ namespace UniversityManagementSystem.Models
 
         public virtual String AssignTo { get; set; }
 
-        public virtual ICollection<Teacher> CourseTeacher { get; set; } 
+        public virtual ICollection<Teacher> CourseTeacher { get; set; }
 
-        
+        public virtual ICollection<RoomAllocation> RoomAllocationList { get; set; }
     }
 }

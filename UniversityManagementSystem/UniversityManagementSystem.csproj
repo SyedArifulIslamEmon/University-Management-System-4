@@ -119,7 +119,9 @@
     <Compile Include="Controllers\AssignCourseController.cs" />
     <Compile Include="Controllers\CourseController.cs" />
     <Compile Include="Controllers\DepartmentController.cs" />
+    <Compile Include="Controllers\EnrollCourseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\RoomAllocationController.cs" />
     <Compile Include="Controllers\SemesterController.cs" />
     <Compile Include="Controllers\StudentController.cs" />
     <Compile Include="Controllers\TeacherController.cs" />
@@ -172,11 +174,24 @@
     <Compile Include="Migrations\201412211454448_v7.Designer.cs">
       <DependentUpon>201412211454448_v7.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201412211639453_v9.cs" />
+    <Compile Include="Migrations\201412211639453_v9.Designer.cs">
+      <DependentUpon>201412211639453_v9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201412211723354_v10.cs" />
+    <Compile Include="Migrations\201412211723354_v10.Designer.cs">
+      <DependentUpon>201412211723354_v10.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AssignCourse.cs" />
     <Compile Include="Models\Course.cs" />
+    <Compile Include="Models\Day.cs" />
     <Compile Include="Models\Department.cs" />
     <Compile Include="Models\Designation.cs" />
+    <Compile Include="Models\EnrollCourse.cs" />
+    <Compile Include="Models\Enrollment.cs" />
+    <Compile Include="Models\Room.cs" />
+    <Compile Include="Models\RoomAllocation.cs" />
     <Compile Include="Models\Semester.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Models\Teacher.cs" />
@@ -304,6 +319,19 @@
     <Content Include="Views\AssignCourse\ViewCourseStatus.cshtml" />
     <Content Include="Views\AssignCourse\AssignConfirmed.cshtml" />
     <Content Include="Views\Shared\_CourseStatus.cshtml" />
+    <Content Include="Views\Shared\_RoomAllocationView.cshtml" />
+    <Content Include="Views\RoomAllocation\Create.cshtml" />
+    <Content Include="Views\RoomAllocation\Delete.cshtml" />
+    <Content Include="Views\RoomAllocation\Details.cshtml" />
+    <Content Include="Views\RoomAllocation\Edit.cshtml" />
+    <Content Include="Views\RoomAllocation\Index.cshtml" />
+    <Content Include="Views\RoomAllocation\RoomAllocationView.cshtml" />
+    <Content Include="Views\Shared\_StudentInformation.cshtml" />
+    <Content Include="Views\EnrollCourse\Create.cshtml" />
+    <Content Include="Views\EnrollCourse\Delete.cshtml" />
+    <Content Include="Views\EnrollCourse\Details.cshtml" />
+    <Content Include="Views\EnrollCourse\Edit.cshtml" />
+    <Content Include="Views\EnrollCourse\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -345,6 +373,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201412211454448_v7.resx">
       <DependentUpon>201412211454448_v7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201412211639453_v9.resx">
+      <DependentUpon>201412211639453_v9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201412211723354_v10.resx">
+      <DependentUpon>201412211723354_v10.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

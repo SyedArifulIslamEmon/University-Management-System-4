@@ -74,8 +74,9 @@ D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\obj\De
 D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.Migrations.Studentadded.resources
 D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.Migrations.V1.resources
 D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.Migrations.V6.resources
+D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.Migrations.v7.resources
+D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.Migrations.v9.resources
+D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.Migrations.v10.resources
 D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.csproj.GenerateResource.Cache
 D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.dll
 D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.pdb
-D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.csprojResolveAssemblyReference.cache
-D:\Projects\VS 2013\UniversityManagementSystem\UniversityManagementSystem\obj\Debug\UniversityManagementSystem.Migrations.v7.resources

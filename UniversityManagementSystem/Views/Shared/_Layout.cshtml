@@ -30,6 +30,32 @@
                     <li>@Html.ActionLink("Student", "Index", "Student")</li>
                     <li>@Html.ActionLink("AssignCourse", "Create", "AssignCourse")</li>
                     <li>@Html.ActionLink("View Course Status", "ViewCourseStatus", "AssignCourse")</li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Room <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                @Html.ActionLink("Room Allocation", "Create", "RoomAllocation")
+                            </li>
+                            <li>
+                                @Html.ActionLink("View Room", "RoomAllocationView","RoomAllocation")
+                            </li>
+                            
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Enroll <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                @Html.ActionLink("Enroll Course", "Create", "EnrollCourse")
+                            </li>
+                            <li>
+                                @Html.ActionLink("View Room", "RoomAllocationView", "RoomAllocation")
+                            </li>
+
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </div>
