@@ -281,12 +281,8 @@
     <Content Include="Views\Student\Edit.cshtml" />
     <Content Include="Views\Student\Index.cshtml" />
     <Content Include="Views\Shared\_CourseInfo.cshtml" />
-    <Content Include="Views\Shared\_CourseStatus.cshtml" />
     <Content Include="Views\Shared\_FillteredTeacher.cshtml" />
     <Content Include="Views\Shared\_FilteredCourse.cshtml" />
-    <Content Include="Views\Shared\_ResultInformation.cshtml" />
-    <Content Include="Views\Shared\_RoomAllocationView.cshtml" />
-    <Content Include="Views\Shared\_StudentInformation.cshtml" />
     <Content Include="Views\Shared\_TeachersCreditInfo.cshtml" />
     <Content Include="Views\AssignCourse\Create.cshtml" />
     <Content Include="Views\AssignCourse\Delete.cshtml" />
