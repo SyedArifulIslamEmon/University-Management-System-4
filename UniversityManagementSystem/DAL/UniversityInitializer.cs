@@ -47,6 +47,39 @@ namespace UniversityManagementSystem.DAL
 
             day.ForEach(d => context.Days.Add(d));
             context.SaveChanges();
+
+
+            var semester = new List<Semester>
+            {
+                new Semester {Name = "Summer 2014"},
+                new Semester {Name = "Fall 2014 "},
+                new Semester {Name = "Spring 2014"},
+                new Semester {Name = "Summer 2015"},
+                new Semester {Name = "Fall 2015"},
+                new Semester {Name = "Spring 2015"},
+                new Semester {Name = "Summer 2016"},
+                new Semester {Name = "Fall 2016"}
+            };
+
+            semester.ForEach(s => context.Semesters.Add(s));
+            context.SaveChanges();
+
+
+            var room = new List<Room>
+            {
+                new Room {Name = "101"},
+                new Room {Name = "102"},
+                new Room {Name = "103"},
+                new Room {Name = "201"},
+                new Room {Name = "202"},
+                new Room {Name = "203"}
+                
+            };
+
+            room.ForEach(r => context.Rooms.Add(r));
+            context.SaveChanges();
+
+
         }
     }
 }

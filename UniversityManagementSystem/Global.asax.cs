@@ -15,7 +15,7 @@ namespace UniversityManagementSystem
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
-            Database.SetInitializer(new UniversityInitializer());
+            //Database.SetInitializer(new UniversityManagementSystem.DAL.UniversityInitializer());
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
