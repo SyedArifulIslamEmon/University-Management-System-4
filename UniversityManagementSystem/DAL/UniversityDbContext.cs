@@ -21,9 +21,9 @@ namespace UniversityManagementSystem.DAL
             //modelBuilder.Entity<UniversityManagementSystem.Models.AssignCourse>()
             //    .HasRequired(c => c.Department).WithMany().WillCascadeOnDelete(false);
 
-            //modelBuilder.Conventions.Remove<ManyToManyCascadeDeleteConvention>();
-            //Database.SetInitializer(new MigrateDatabaseToLatestVersion<UniversityDbContext, Configuration>());
-            //base.OnModelCreating(modelBuilder);
+            modelBuilder.Conventions.Remove<ManyToManyCascadeDeleteConvention>();
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<UniversityDbContext, Configuration>());
+            base.OnModelCreating(modelBuilder);
         }
 
         public DbSet<Department> Departments { get; set; }
