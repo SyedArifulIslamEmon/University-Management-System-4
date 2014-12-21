@@ -30,6 +30,8 @@ namespace UniversityManagementSystem.Models
 
         public string Description { get; set; }
 
+        public virtual Semester CourseSemister { get; set; }
+
         public int DepartmentId { get; set; }
         public virtual Department Department { get; set; }
 

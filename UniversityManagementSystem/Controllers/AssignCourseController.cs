@@ -352,5 +352,7 @@ namespace UniversityManagementSystem.Controllers
 
             return PartialView("~/Views/shared/_coursestatus.cshtml", courseList);
         }
+
+        
     }
 }
