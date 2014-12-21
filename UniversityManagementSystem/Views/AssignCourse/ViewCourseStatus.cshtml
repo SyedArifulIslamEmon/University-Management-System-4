@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "ViewCourseStatus";
+}
+
+<h2>ViewCourseStatus</h2>
+
+@using (Html.BeginForm())
+{
+    <div>
+        <b>Select Department  </b>
+        @Html.DropDownList("DepartmentId", "Select Department")
+    </div>
+}
+<p><br /></p>
+<div id="resultData">
+    @Html.Partial("~/Views/Shared/_coursestatus.cshtml")
+</div>
+<script type="text/javascript">
+    function FillData(id) {
+        $('#resultData').load('@Url.Action("CourseStatusLoad")', { departmentId: id });
+    }
+
+    $(function () {
+        $('#DepartmentId').change(function () {
+            var id = $('#DepartmentId').val();
+            FillData(id);
+        });
+    });
+
+</script>
+

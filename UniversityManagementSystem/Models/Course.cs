@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
@@ -9,6 +10,11 @@ namespace UniversityManagementSystem.Models
 {
     public class Course
     {
+        public Course()
+        {
+            this.CourseTeacher = new Collection<Teacher>();
+        }
+
         public int CourseId { get; set; }
 
         [Required(ErrorMessage = "Please enter a unique course code.")]
@@ -29,6 +35,10 @@ namespace UniversityManagementSystem.Models
 
         public int SemesterId { get; set; }
         public virtual Semester Semester { get; set; }
+
+        public virtual String AssignTo { get; set; }
+
+        public virtual ICollection<Teacher> CourseTeacher { get; set; } 
 
         
     }
