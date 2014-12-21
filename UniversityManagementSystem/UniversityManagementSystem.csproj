@@ -164,6 +164,10 @@
     <Compile Include="Migrations\201412211223068_V1.Designer.cs">
       <DependentUpon>201412211223068_V1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201412211355104_V6.cs" />
+    <Compile Include="Migrations\201412211355104_V6.Designer.cs">
+      <DependentUpon>201412211355104_V6.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AssignCourse.cs" />
     <Compile Include="Models\Course.cs" />
@@ -327,6 +331,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201412211223068_V1.resx">
       <DependentUpon>201412211223068_V1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201412211355104_V6.resx">
+      <DependentUpon>201412211355104_V6.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
