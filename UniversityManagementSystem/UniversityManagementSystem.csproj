@@ -121,6 +121,7 @@
     <Compile Include="Controllers\DepartmentController.cs" />
     <Compile Include="Controllers\EnrollCourseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ResultEntrieController.cs" />
     <Compile Include="Controllers\RoomAllocationController.cs" />
     <Compile Include="Controllers\SemesterController.cs" />
     <Compile Include="Controllers\StudentController.cs" />
@@ -182,6 +183,10 @@
     <Compile Include="Migrations\201412211723354_v10.Designer.cs">
       <DependentUpon>201412211723354_v10.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201412211754492_v11.cs" />
+    <Compile Include="Migrations\201412211754492_v11.Designer.cs">
+      <DependentUpon>201412211754492_v11.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AssignCourse.cs" />
     <Compile Include="Models\Course.cs" />
@@ -190,6 +195,8 @@
     <Compile Include="Models\Designation.cs" />
     <Compile Include="Models\EnrollCourse.cs" />
     <Compile Include="Models\Enrollment.cs" />
+    <Compile Include="Models\Grade.cs" />
+    <Compile Include="Models\ResultEntry.cs" />
     <Compile Include="Models\Room.cs" />
     <Compile Include="Models\RoomAllocation.cs" />
     <Compile Include="Models\Semester.cs" />
@@ -332,6 +339,13 @@
     <Content Include="Views\EnrollCourse\Details.cshtml" />
     <Content Include="Views\EnrollCourse\Edit.cshtml" />
     <Content Include="Views\EnrollCourse\Index.cshtml" />
+    <Content Include="Views\Shared\_ResultInformation.cshtml" />
+    <Content Include="Views\ResultEntrie\Create.cshtml" />
+    <Content Include="Views\ResultEntrie\Delete.cshtml" />
+    <Content Include="Views\ResultEntrie\Details.cshtml" />
+    <Content Include="Views\ResultEntrie\Edit.cshtml" />
+    <Content Include="Views\ResultEntrie\Index.cshtml" />
+    <Content Include="Views\ResultEntrie\ViewResult.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -379,6 +393,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201412211723354_v10.resx">
       <DependentUpon>201412211723354_v10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201412211754492_v11.resx">
+      <DependentUpon>201412211754492_v11.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

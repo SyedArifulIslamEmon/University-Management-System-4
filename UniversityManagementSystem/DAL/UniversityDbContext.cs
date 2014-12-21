@@ -47,5 +47,9 @@ namespace UniversityManagementSystem.DAL
         public DbSet<Day> Days { get; set; }
 
         public System.Data.Entity.DbSet<UniversityManagementSystem.Models.EnrollCourse> EnrollCourses { get; set; }
+
+        public System.Data.Entity.DbSet<UniversityManagementSystem.Models.ResultEntry> ResultEntries { get; set; }
+
+        public System.Data.Entity.DbSet<UniversityManagementSystem.Models.Grade> Grades { get; set; }
     }
 }
