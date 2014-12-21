@@ -284,7 +284,6 @@
     <Content Include="Views\Shared\_CourseStatus.cshtml" />
     <Content Include="Views\Shared\_FillteredTeacher.cshtml" />
     <Content Include="Views\Shared\_FilteredCourse.cshtml" />
-    <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\_ResultInformation.cshtml" />
     <Content Include="Views\Shared\_RoomAllocationView.cshtml" />
     <Content Include="Views\Shared\_StudentInformation.cshtml" />
